@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="" />
+    <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmate/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
           <entry key="dummy" value="1" />
           <entry key="env" value="51" />
           <entry key="html" value="7988" />
-          <entry key="py" value="5816" />
+          <entry key="py" value="5821" />
           <entry key="py@taskmate" value="193" />
         </counts>
       </usages-collector>
@@ -49,7 +52,7 @@
           <entry key="Env File" value="51" />
           <entry key="HTML" value="7988" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Python" value="5851" />
+          <entry key="Python" value="5856" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -94,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+            <state relative-caret-position="246">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               <folding>
                 <element signature="e#309#318#0" expanded="true" />
               </folding>
@@ -123,6 +126,9 @@
     <replaceStrings>
       <replace>class</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -184,6 +190,7 @@
     <option name="width" value="800" />
     <option name="height" value="852" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -665,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        <state relative-caret-position="246">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding>
             <element signature="e#309#318#0" expanded="true" />
           </folding>
