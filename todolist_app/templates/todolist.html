@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    To-Do List - Manage your Tasks
+{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="{% static 'css/flatpickr.min.css' %}">
+    <script src="{% static 'js/flatpickr.js' %}"></script>
+
+
+    <script>
+        // This code activates flatpickr on fields with the 'datetimefield' class when the document has loaded
+        window.addEventListener("DOMContentLoaded", function () {
+            flatpickr(".datetimefield", {
+                noCalendar: false,
+                enableTime: true,
+                enableSeconds: true,
+                calendarContainer: true,
+                minDate: "today",
+                dateFormat: "Y-m-d H:i:S",
+            });
+        });
+    </script>
+    <div class="container">
+        </br>
+        {% if messages %}
+            {% for message in messages %}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+        <form method="POST" class="row">
+            {% csrf_token %}
+            <input type="text" class="form-control col-lg-7 mr-2" name="task" placeholder="Add task??">
+            <input type="text" class="datetimefield" name="task_deadline" placeholder="Set Deadline">
+            <button type="submit" class="btn btn-outline-dark col-lg-2 ml-4">Add Task</button>
+
+        </form>
+        </br>
+
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+            <tr class="row">
+                <th class="col-1">ID</th>
+                <th class="col-5">Task</th>
+                <th class="col-2">Status</th>
+                <th class="col-2">Deadline</th>
+                <th class="col-1">Edit</th>
+                <th class="col-1">Delete</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for obj in all_task %}
+
+                {% if obj.done %}
+                    <tr class="table-success row">
+                        <th class="col-1">{{ forloop.counter }}</th>
+                        <td class="col-5">
+                            <del>{{ obj.task }}</del>
+                        </td>
+                        <td class="col-2"><a href="{% url 'done_task' obj.id %}">
+                            <button type="button" class="btn btn-secondary">Mark this pending</button>
+                        </a></td>
+                        <td class="col-2"><h7 class="text-success"> Task Completed</h7></td>
+                        <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
+                            <button type="button" class="btn btn-warning">Edit</button>
+                        </a></td>
+                        <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
+                            <button type="button" class="btn btn-danger col-12">X</button>
+                        </a></td>
+                    </tr>
+                {% else %}
+                    <tr class="table-info row">
+                        <th class="col-1">{{ forloop.counter }}</th>
+                        <td class="col-5">{{ obj.task }}</td>
+
+                        {% if obj.is_deadline_over %}
+                            <td class="col-2" rowspan="2"><h7 class="text-danger">Failed to finish in Time</h7></td>
+                            <td class="col-2"><h7 class="text-danger"> Deadline expired! @  {{ obj.task_deadline }}</h7></td>
+                        {% else %}
+                            <td class="col-2" rowspan="2"><a href="{% url 'done_task' obj.id %}">
+                            <button type="button" class="btn btn-dark">Mark this completed</button>
+                        </a></td>
+                            <td class="col-2"><p class="text-secondary">{{ obj.task_deadline|timeuntil }} Left</p></td>
+                        {% endif %}
+                        <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
+                            <button type="button" class="btn btn-warning">Edit</button>
+                        </a></td>
+                        <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
+                           <button type="button" class="btn btn-danger col-12">X</button>
+                        </a></td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+            </tbody>
+        </table>
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-end">
+                <li class="page-item "><a class="page-link" href="?pg=1"><<</a></li>
+                {% if all_task.has_previous %}
+                    <li class="page-item"><a class="page-link"
+                                             href="?pg={{ all_task.previous_page_number }}">{{ all_task.previous_page_number }}</a>
+                    </li>
+                {% endif %}
+                <li class="page-item"><a class="page-link" href="?pg={{ all_task.number }}">{{ all_task.number }}</a>
+                </li>
+                {% if all_task.has_next %}
+                    <li class="page-item"><a class="page-link"
+                                             href="?pg={{ all_task.next_page_number }}">{{ all_task.next_page_number }}</a>
+                    </li>
+                {% endif %}
+                <li class="page-item"><a class="page-link" href="?pg={{ all_task.paginator.num_pages }}">>></a></li>
+            </ul>
+        </nav>
+
+    </div>
+{% endblock %}

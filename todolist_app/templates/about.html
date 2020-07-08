@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    About Us - Task Mate
+{% endblock %}
+
+{% block content %}
+
+    <div class="bg-white py-5">
+        <div class="container py-5">
+            <div class="row align-items-center mb-3">
+                <div class="col-lg-6 order-2 order-lg-1"><i class="fa fa-bar-chart fa-2x mb-3 text-primary"></i>
+                    <h2 class="font-weight-light text-primary">About TaskMate</h2>
+                    <p class="font-italic text-muted mb-4">
+                        Organizing your tasks with a list can make everything much more manageable and make you feel
+                        grounded.
+                        Seeing a clear outline of your completed and uncompleted tasks will help you feel organized and
+                        stay mentally focused.
+                        TaskMate App helps you to organize your task.
+                    </p></p><a href="#team" class="btn btn-light px-5 rounded-pill shadow-sm">Learn More</a>
+                </div>
+                <div class="col-lg-5 px-5 mx-auto order-1 order-lg-2"><img
+                        src="https://res.cloudinary.com/mhmd/image/upload/v1556834139/img-1_e25nvh.jpg" alt=""
+                        class="img-fluid mb-4 mb-lg-0"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-light py-5">
+        <div class="container py-5">
+            <div id="team"class="row mb-5">
+                <div class="col-lg-5 w-50 mx-auto text-center mt-1">
+                    <h2 class="display-4 font-weight-light">Our team</h2>
+                    <p class="font-italic text-muted">Team members of Cybric Technolgy.</p>
+                </div>
+            </div>
+
+            <div class="container  row text-center">
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                    <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/rafiq.jpg' %}"
+                                                                             alt="" width="100"
+                                                                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Rafiq</h5><span class="small text-uppercase text-muted">SEO Specialist</span>
+                        <div>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                        </div>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="https://facebook.com/OfficialRafiq" class="social-link"><i
+                                    class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/AbdurRafiq" class="social-link"><i
+                                    class="fa fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/abdurrafiq" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                    <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/shomit.jpg' %}"
+                                                                             alt="" width="100"
+                                                                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Shomit</h5><span class="small text-uppercase text-muted">CEO - Founder </span>
+                        <div>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                        </div>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="https://facebook.com/sishomit" class="social-link"><i
+                                    class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/sishomit" class="social-link"><i
+                                    class="fa fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/sishomit" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+
+                <!-- Team item-->
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                    <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/hillol.jpg' %}"
+                                                                             alt="" width="100"
+                                                                             class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                        <h5 class="mb-0">Hillol</h5><span class="small text-uppercase text-muted">Graphics Designer </span>
+                        <div>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                        </div>
+                        <ul class="social mb-0 list-inline mt-3">
+                            <li class="list-inline-item"><a href="https://facebook.com/DibludabluDibludabluDoo" class="social-link"><i
+                                    class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/hillubhai" class="social-link"><i
+                                    class="fa fa-github"></i></a></li>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/hillol-barman-24117715a" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End-->
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+{% endblock %}
+

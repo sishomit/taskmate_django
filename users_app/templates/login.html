@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+Login - TaskMate
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <h2 class="text-primary col-lg-7">Login On Taskmate</h2>
+    {% if messages %}
+        {% for message in messages %}
+        <div class="alert alert-warning alert-dismissible fade show mt-1" role="alert">
+          {{ message }}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        {% endfor %}
+    {% endif %}
+        <form method="POST" class="mt-1 col-6">
+            {% csrf_token %}
+
+            {{ form|crispy }}
+            <div style="text-align: center;"> <button type="submit" class="btn  btn-primary col-lg-3 mb-3">Login</button></div>
+            <div style="text-align: center;"><a href="{% url 'reset' %}"><button type="button" class="btn btn-outline-primary col-lg-5 mb-5">Forgot password?</button> </a> </div>
+
+
+
+        </form>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+Register - TaskMate
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+    <h2 class="text-primary col-lg-7">Register On Taskmate</h2>
+        <form method="POST" class="mt-1 col-6">
+            {% csrf_token %}
+
+            {{ register_form|crispy }}
+            <div style="text-align: center;"><button type="submit" class="btn  btn-primary col-lg-3 mb-3">Register</button></div>
+                    <div style="text-align: center;"><a href="{% url 'reset' %}"><button type="button" class="btn btn-outline-primary col-lg-5 mb-5">Forgot password?</button> </a> </div>
+
+        </form>
+    </div>
+{% endblock %}
+
