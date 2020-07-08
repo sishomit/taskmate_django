@@ -1,2 +1,1 @@
-Procfile
-        Web: gunicorn taskmate.wsgi
+Web: gunicorn taskmate.wsgi
