@@ -13,7 +13,6 @@ import django_heroku
 import os
 import environ
 
-
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 env = environ.Env(SECRET_KEY=str, )
@@ -128,17 +127,10 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 LOGIN_REDIRECT_URL = 'todolist'
 LOGIN_URL = 'login'
 
-EMAIL_USE_TLS = env('DJANGO_EMAIL_USE_TLS')
-
-EMAIL_HOST = env('DJANGO_EMAIL_HOST')
-
-EMAIL_PORT = env('DJANGO_EMAIL_PORT')
-
-EMAIL_HOST_USER = env('DJANGO_EMAIL_HOST_USER')
-
-EMAIL_HOST_PASSWORD = env('DJANGO_EMAIL_HOST_PASSWORD')
-
-DEFAULT_FROM_EMAIL = env('DJANGO_DEFAULT_FROM_EMAIL')
-
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'taskmate.cybric@gmail.com'
+EMAIL_HOST_PASSWORD = '456123@Tm'
+DEFAULT_FROM_EMAIL = 'taskmate.cybric@gmail.com'
 django_heroku.settings(locals())
-
