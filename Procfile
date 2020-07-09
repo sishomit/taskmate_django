@@ -1,3 +1,3 @@
-web: gunicorn taskmeate.wsgi:application --log-file - --log-level debug
+web: gunicorn taskmate.wsgi:application --log-file - --log-level debug
 python manage.py collectstatic --noinput
 manage.py migrate
