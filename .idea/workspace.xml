@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/taskmate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmate/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="35" />
-          <entry key="Procfile" value="72" />
+          <entry key="Procfile" value="95" />
           <entry key="css" value="1" />
           <entry key="dummy" value="1" />
           <entry key="env" value="52" />
@@ -52,13 +52,13 @@
           <entry key="Env File" value="52" />
           <entry key="HTML" value="7991" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Procfile" value="72" />
+          <entry key="Procfile" value="95" />
           <entry key="Python" value="5937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Procfile" value="1" />
+          <entry key="Procfile" value="2" />
           <entry key="css" value="2" />
           <entry key="env" value="4" />
           <entry key="gitignore" value="1" />
@@ -68,7 +68,7 @@
           <entry key="keep" value="1" />
           <entry key="png" value="7" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="76" />
+          <entry key="py" value="77" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -81,9 +81,9 @@
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Procfile" value="1" />
+          <entry key="Procfile" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="76" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
     </session>
@@ -99,31 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../taskmate/taskmate/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
-              <folding>
-                <element signature="e#308#328#0" expanded="true" />
-                <element signature="e#1278#1677#0" />
-                <element signature="e#1723#2242#0" />
-                <element signature="e#2292#2302#0" />
-                <element signature="e#2380#2508#0" />
-                <element signature="e#2510#2531#0" />
-                <element signature="e#2639#3035#0" />
-                <element signature="e#3037#3059#0" />
-                <element signature="e#3214#3254#0" />
-              </folding>
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -196,9 +176,9 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/taskmate/settings.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -208,7 +188,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="800" />
@@ -225,11 +205,6 @@
           <expand>
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
               <item name="taskmate" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -349,7 +324,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12775616" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.12775616" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32859176" />
@@ -360,7 +335,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3997155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -415,13 +390,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -679,13 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../taskmate/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -693,16 +654,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/taskmate/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
+        <state relative-caret-position="-2" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
+        <state relative-caret-position="960">
           <caret line="129" column="20" lean-forward="true" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="20" />
           <folding>
             <element signature="e#308#328#0" expanded="true" />
@@ -715,6 +674,20 @@
             <element signature="e#3037#3059#0" />
             <element signature="e#3214#3254#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
         </state>
       </provider>
     </entry>
