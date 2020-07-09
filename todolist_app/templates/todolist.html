@@ -44,63 +44,72 @@
 
         </form>
         </br>
-<div class="table-responsive">
-        <table class="table table-bordered">
-            <thead class="thead-dark">
-            <tr class="row">
-                <th class="col-1">ID</th>
-                <th class="col-5">Task</th>
-                <th class="col-2">Status</th>
-                <th class="col-2">Deadline</th>
-                <th class="col-1">Edit</th>
-                <th class="col-1">Delete</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for obj in all_task %}
-
-                {% if obj.done %}
-                    <tr class="table-success row">
-                        <th class="col-1">{{ forloop.counter }}</th>
-                        <td class="col-5">
-                            <del>{{ obj.task }}</del>
-                        </td>
-                        <td class="col-2"><a href="{% url 'done_task' obj.id %}">
-                            <button type="button" class="btn btn-secondary">Mark this pending</button>
-                        </a></td>
-                        <td class="col-2"><h7 class="text-success"> Task Completed</h7></td>
-                        <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
-                            <button type="button" class="btn btn-warning">Edit</button>
-                        </a></td>
-                        <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
-                            <button type="button" class="btn btn-danger col-12">X</button>
-                        </a></td>
+        <div class="col-12 col-sm-12 col-lg-12">
+            <div class="table-responsive col-sm">
+                <table class="table table-bordered">
+                    <thead class="thead-dark">
+                    <tr class="row">
+                        <th class="col-1">ID</th>
+                        <th class="col-5">Task</th>
+                        <th class="col-2">Status</th>
+                        <th class="col-2">Deadline</th>
+                        <th class="col-1">Edit</th>
+                        <th class="col-1">Delete</th>
                     </tr>
-                {% else %}
-                    <tr class="table-info row">
-                        <th class="col-1">{{ forloop.counter }}</th>
-                        <td class="col-5">{{ obj.task }}</td>
+                    </thead>
+                    <tbody>
+                    {% for obj in all_task %}
 
-                        {% if obj.is_deadline_over %}
-                            <td class="col-2" rowspan="2"><h7 class="text-danger">Failed to finish in Time</h7></td>
-                            <td class="col-2"><h7 class="text-danger"> Deadline expired! @  {{ obj.task_deadline }}</h7></td>
+                        {% if obj.done %}
+                            <tr class="table-success row">
+                                <th class="col-1">{{ forloop.counter }}</th>
+                                <td class="col-5">
+                                    <del>{{ obj.task }}</del>
+                                </td>
+                                <td class="col-2"><a href="{% url 'done_task' obj.id %}">
+                                    <button type="button" class="btn btn-secondary">Mark this pending</button>
+                                </a></td>
+                                <td class="col-2">
+                                    <h7 class="text-success"> Task Completed</h7>
+                                </td>
+                                <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
+                                    <button type="button" class="btn btn-warning">Edit</button>
+                                </a></td>
+                                <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
+                                    <button type="button" class="btn btn-danger col-12">X</button>
+                                </a></td>
+                            </tr>
                         {% else %}
-                            <td class="col-2" rowspan="2"><a href="{% url 'done_task' obj.id %}">
-                            <button type="button" class="btn btn-dark">Mark this completed</button>
-                        </a></td>
-                            <td class="col-2"><p class="text-secondary">{{ obj.task_deadline|timeuntil }} Left</p></td>
+                            <tr class="table-info row">
+                                <th class="col-1">{{ forloop.counter }}</th>
+                                <td class="col-5">{{ obj.task }}</td>
+
+                                {% if obj.is_deadline_over %}
+                                    <td class="col-2" rowspan="2">
+                                        <h7 class="text-danger">Failed to finish in Time</h7>
+                                    </td>
+                                    <td class="col-2">
+                                        <h7 class="text-danger"> Deadline expired! @ {{ obj.task_deadline }}</h7>
+                                    </td>
+                                {% else %}
+                                    <td class="col-2" rowspan="2"><a href="{% url 'done_task' obj.id %}">
+                                        <button type="button" class="btn btn-dark">Mark this completed</button>
+                                    </a></td>
+                                    <td class="col-2"><p class="text-secondary">{{ obj.task_deadline|timeuntil }}
+                                        Left</p></td>
+                                {% endif %}
+                                <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
+                                    <button type="button" class="btn btn-warning">Edit</button>
+                                </a></td>
+                                <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
+                                    <button type="button" class="btn btn-danger col-12">X</button>
+                                </a></td>
+                            </tr>
                         {% endif %}
-                        <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
-                            <button type="button" class="btn btn-warning">Edit</button>
-                        </a></td>
-                        <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
-                           <button type="button" class="btn btn-danger col-12">X</button>
-                        </a></td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-            </tbody>
-        </table>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <nav aria-label="Page navigation example">
