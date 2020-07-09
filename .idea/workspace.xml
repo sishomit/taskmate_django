@@ -36,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="35" />
-          <entry key="Procfile" value="108" />
+          <entry key="Procfile" value="121" />
           <entry key="css" value="1" />
           <entry key="dummy" value="1" />
           <entry key="env" value="52" />
@@ -52,7 +52,7 @@
           <entry key="Env File" value="52" />
           <entry key="HTML" value="7991" />
           <entry key="PLAIN_TEXT" value="95" />
-          <entry key="Procfile" value="108" />
+          <entry key="Procfile" value="121" />
           <entry key="Python" value="5937" />
         </counts>
       </usages-collector>
