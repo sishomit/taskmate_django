@@ -30,7 +30,7 @@ class Contact(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
     message = models.TextField(max_length=300)
-    time = models.DateTimeField(default=timezone.now())
+    time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.name
