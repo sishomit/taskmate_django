@@ -30,8 +30,8 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="4" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.open.time.8" value="5" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -42,7 +42,7 @@
           <entry key="dummy" value="1" />
           <entry key="env" value="52" />
           <entry key="html" value="7991" />
-          <entry key="py" value="5923" />
+          <entry key="py" value="5930" />
           <entry key="py@taskmate" value="193" />
         </counts>
       </usages-collector>
@@ -54,7 +54,7 @@
           <entry key="HTML" value="7991" />
           <entry key="PLAIN_TEXT" value="95" />
           <entry key="Procfile" value="122" />
-          <entry key="Python" value="5958" />
+          <entry key="Python" value="5965" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+            <state relative-caret-position="21">
+              <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
               <folding>
                 <element signature="e#308#328#0" expanded="true" />
               </folding>
@@ -222,6 +222,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +239,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +351,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.12970169" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13164721" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32859176" />
@@ -362,7 +362,7 @@
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49870297" weight="0.32859176" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3997155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
@@ -703,8 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="112" column="15" lean-forward="true" selection-start-line="112" selection-start-column="15" selection-end-line="112" selection-end-column="15" />
+        <state relative-caret-position="21">
+          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
           <folding>
             <element signature="e#308#328#0" expanded="true" />
           </folding>
