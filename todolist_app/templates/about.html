@@ -5,6 +5,31 @@
 {% endblock %}
 
 {% block content %}
+    <style>
+        @media only screen and (max-device-width: 760px) {
+            .mobile {
+                box-sizing: unset;
+            }
+
+            #flex {
+                display: flex;
+                flex-direction: column;
+            }
+
+            #one{
+                order: 2;
+            }
+
+            #shomit {
+                order: 1;
+            }
+
+            #three{
+                order: 3;
+            }
+
+        }
+    </style>
 
     <div class="bg-white py-5">
         <div class="container py-5">
@@ -28,30 +53,31 @@
 
     <div class="bg-light py-5">
         <div class="container py-5">
-            <div id="team"class="row mb-5">
+            <div id="team" class="row mb-5">
                 <div class="col-lg-5 w-50 mx-auto text-center mt-1">
                     <h2 class="display-4 font-weight-light">Our team</h2>
                     <p class="font-italic text-muted">Team members of Cybric Technolgy.</p>
                 </div>
             </div>
 
-            <div class="container  row text-center">
+            <div class="container  row text-center" id="flex">
 
                 <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto mobile" id="one">
                     <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/rafiq.jpg' %}"
                                                                              alt="" width="100"
                                                                              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                         <h5 class="mb-0">Rafiq</h5><span class="small text-uppercase text-muted">SEO Specialist</span>
                         <div>
-                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric
+                                Technology</a></h7>
                         </div>
                         <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item"><a href="https://facebook.com/OfficialRafiq" class="social-link"><i
+                            <li class="list-inline-item"><a href="#" class="social-link"><i
                                     class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://github.com/AbdurRafiq" class="social-link"><i
+                            <li class="list-inline-item"><a href="#" class="social-link"><i
                                     class="fa fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/in/abdurrafiq" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -59,20 +85,22 @@
                 <!-- End-->
 
                 <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto mobile" id="shomit">
                     <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/shomit.jpg' %}"
                                                                              alt="" width="100"
                                                                              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
                         <h5 class="mb-0">Shomit</h5><span class="small text-uppercase text-muted">CEO - Founder </span>
                         <div>
-                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric
+                                Technology</a></h7>
                         </div>
                         <ul class="social mb-0 list-inline mt-3">
                             <li class="list-inline-item"><a href="https://facebook.com/sishomit" class="social-link"><i
                                     class="fa fa-facebook"></i></a></li>
                             <li class="list-inline-item"><a href="https://github.com/sishomit" class="social-link"><i
                                     class="fa fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/in/sishomit" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="https://linkedin.com/in/sishomit" class="social-link"><i
+                                    class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -80,20 +108,22 @@
                 <!-- End-->
 
                 <!-- Team item-->
-                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto">
+                <div class="col-xl-3 col-sm-6 mb-5 w-50 mx-auto mobile" id="three">
                     <div class="bg-white rounded shadow-sm py-5 px-50 "><img src="{% static 'images/hillol.jpg' %}"
                                                                              alt="" width="100"
                                                                              class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
-                        <h5 class="mb-0">Hillol</h5><span class="small text-uppercase text-muted">Graphics Designer </span>
+                        <h5 class="mb-0">Hillol</h5><span
+                                class="small text-uppercase text-muted">Graphics Designer </span>
                         <div>
-                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric Technology</a> </h7>
+                            <h7 class="mb-0 text-sm-center"><a href="https://facebook.com/cybrictech">Cybric
+                                Technology</a></h7>
                         </div>
                         <ul class="social mb-0 list-inline mt-3">
-                            <li class="list-inline-item"><a href="https://facebook.com/DibludabluDibludabluDoo" class="social-link"><i
+                            <li class="list-inline-item"><a href="#" class="social-link"><i
                                     class="fa fa-facebook"></i></a></li>
-                            <li class="list-inline-item"><a href="https://github.com/hillubhai" class="social-link"><i
+                            <li class="list-inline-item"><a href="#" class="social-link"><i
                                     class="fa fa-github"></i></a></li>
-                            <li class="list-inline-item"><a href="https://linkedin.com/in/hillol-barman-24117715a" class="social-link"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>

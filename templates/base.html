@@ -13,7 +13,8 @@
 
     <link rel="icon" href="{% static 'favicon.ico' %}" sizes="24x24">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
 
     <title>{% block title %}
@@ -28,7 +29,8 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="{% url 'index' %}">Home <span class="sr-only">(current)</span></a>
-               {% if user.is_authenticated %} <a class="nav-item nav-link" href="{% url 'todolist' %}">To Do </a> {% endif %}
+                {% if user.is_authenticated %}
+                    <a class="nav-item nav-link" href="{% url 'todolist' %}">To Do </a> {% endif %}
                 <a class="nav-item nav-link" href="{% url 'about' %}">About Us</a>
                 <a class="nav-item nav-link" href="{% url 'contact' %}">Contact Us</a>
             </div>
@@ -61,8 +63,48 @@
 {% endblock content %}
 
 <nav class='blockquote-footer'>
-  <div class="container " style="text-align: center;"> © Copyright 2020 by <a href="https://facebook.com/cybrictech" style="cursor: pointer;" class="text-primary">Cybric Tech.</a> All Rights Reserved.
-  </div>
-    </nav>
+    <div class="container " style="text-align: center;"> © Copyright 2020 by <a href="https://facebook.com/cybrictech"
+                                                                                style="cursor: pointer;"
+                                                                                class="text-primary">Cybric Tech.</a>
+        All Rights Reserved.
+    </div>
+</nav>
+
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-52746336-1');
+    ga('send', 'pageview');
+    var isCompleted = {};
+
+    function sampleCompleted(sampleName) {
+        if (ga && !isCompleted.hasOwnProperty(sampleName)) {
+            ga('send', 'event', 'WebCentralSample', sampleName, 'completed');
+            isCompleted[sampleName] = true;
+        }
+    }
+</script>
+<script type="text/javascript">
+    function init() {
+        window.matchMedia("(max-width: 600px)").addListener(hitMQ);
+    }
+
+    function hitMQ(evt) {
+        sampleCompleted("GettingStarted-ContentWithStyles");
+    }
+
+    init();
+
+</script>
 </body>
 </html>

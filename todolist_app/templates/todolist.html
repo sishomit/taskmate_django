@@ -7,9 +7,154 @@
 
 {% block content %}
     <link rel="stylesheet" href="{% static 'css/flatpickr.min.css' %}">
+    <style>
+
+        /*
+   Generic Styling, for Desktops/Laptops
+   */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+
+
+        th {
+            background: #333;
+            color: white;
+            font-weight: bold;
+        }
+
+        td, th {
+            padding: 6px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        td:nth-child(1) {
+            width: 5%;
+        }
+
+        td:nth-child(2) {
+            width: 50%;
+        }
+
+        td:nth-child(3) {
+            width: 20%;
+        }
+
+        td:nth-child(4) {
+            width: 20%;
+        }
+
+        td:nth-child(5) {
+            width: 5%;
+        }
+
+        td:nth-child(6) {
+            width: 5%;
+        }
+
+        /*
+     Max width before this PARTICULAR table gets nasty
+     This query will take effect for any screen smaller than 760px
+     and also iPads specifically.
+     */
+        @media only screen and (max-device-width: 760px) {
+
+            /* Force table to not be like tables anymore */
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+
+            /* Hide table headers (but not display: none;, for accessibility) */
+            thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+
+            tr {
+                border: 1px solid #ccc;
+            }
+
+            td {
+                /* Behave  like a "row" */
+                border: none;
+                border-bottom: 1px solid #eee;
+                position: relative;
+                padding-left: 50%;
+                padding-right: 0px;
+
+            }
+
+            td:before {
+                /* Now like a table header */
+                position: absolute;
+                /* Top/left values mimic padding */
+                top: 6px;
+                left: 6px;
+                padding-right: 10px;
+
+            }
+
+            /*
+            Label the data
+            */
+            td:nth-of-type(1):before {
+                content: "ID";
+                font-weight: bold;
+            }
+
+            td:nth-of-type(2):before {
+                content: "Task";
+                font-weight: bold;
+            }
+
+            td:nth-of-type(3):before {
+                content: "Status";
+                font-weight: bold;
+            }
+
+            td:nth-of-type(4):before {
+                content: "Deadline";
+                font-weight: bold;
+            }
+
+            td:nth-of-type(5):before {
+                content: "Edit";
+                font-weight: bold;
+            }
+
+            td:nth-of-type(6):before {
+                content: "Delete";
+                font-weight: bold;
+            }
+
+            td:nth-child(2) {
+                width: auto;
+
+            }
+            td:nth-child(3) {
+                width: auto;
+            }
+
+            td:nth-child(4) {
+                width: auto;
+
+            }
+
+            /*button*/
+            button {
+                width: 100px;
+            }
+
+        }
+
+    </style>
+
+
     <script src="{% static 'js/flatpickr.js' %}"></script>
-
-
     <script>
         // This code activates flatpickr on fields with the 'datetimefield' class when the document has loaded
         window.addEventListener("DOMContentLoaded", function () {
@@ -43,74 +188,70 @@
             <button type="submit" class="btn btn-outline-dark col-lg-2 ml-4">Add Task</button>
 
         </form>
-        </br>
-        <div class="col-12 col-sm-12 col-lg-12">
-            <div class="table-responsive col-sm">
-                <table class="table table-bordered">
-                    <thead class="thead-dark">
-                    <tr class="row">
-                        <th class="col-1">ID</th>
-                        <th class="col-5">Task</th>
-                        <th class="col-2">Status</th>
-                        <th class="col-2">Deadline</th>
-                        <th class="col-1">Edit</th>
-                        <th class="col-1">Delete</th>
+        <br>
+                <table>
+                    <thead>
+                    <tr>
+                        <th id="ID">ID</th>
+                        <th>Task</th>
+                        <th >Status</th>
+                        <th >Deadline</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
                     </tr>
                     </thead>
                     <tbody>
                     {% for obj in all_task %}
 
                         {% if obj.done %}
-                            <tr class="table-success row">
-                                <th class="col-1">{{ forloop.counter }}</th>
-                                <td class="col-5">
+                            <tr class="table-success">
+                                <td>{{ forloop.counter }}</td>
+                                <td>
                                     <del>{{ obj.task }}</del>
                                 </td>
-                                <td class="col-2"><a href="{% url 'done_task' obj.id %}">
+                                <td><a href="{% url 'done_task' obj.id %}">
                                     <button type="button" class="btn btn-secondary">Mark this pending</button>
                                 </a></td>
-                                <td class="col-2">
+                                <td>
                                     <h7 class="text-success"> Task Completed</h7>
                                 </td>
-                                <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
-                                    <button type="button" class="btn btn-warning">Edit</button>
+                                <td ><a href="{% url 'edit_task' obj.id %}">
+                                    <button type="button" class="btn btn-info">&#9998;</button>
                                 </a></td>
-                                <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
-                                    <button type="button" class="btn btn-danger col-12">X</button>
+                                <td><a href="{% url 'delete_task' obj.id %}">
+                                    <button type="button" class="btn btn-danger">&#9940</button>
                                 </a></td>
                             </tr>
                         {% else %}
-                            <tr class="table-info row">
-                                <th class="col-1">{{ forloop.counter }}</th>
-                                <td class="col-5">{{ obj.task }}</td>
+                            <tr class="table-info">
+                                <td >{{ forloop.counter }}</td>
+                                <td >{{ obj.task }}</td>
 
                                 {% if obj.is_deadline_over %}
-                                    <td class="col-2" rowspan="2">
+                                    <td >
                                         <h7 class="text-danger">Failed to finish in Time</h7>
                                     </td>
-                                    <td class="col-2">
+                                    <td >
                                         <h7 class="text-danger"> Deadline expired! @ {{ obj.task_deadline }}</h7>
                                     </td>
                                 {% else %}
-                                    <td class="col-2" rowspan="2"><a href="{% url 'done_task' obj.id %}">
+                                    <td ><a href="{% url 'done_task' obj.id %}">
                                         <button type="button" class="btn btn-dark">Mark this completed</button>
                                     </a></td>
-                                    <td class="col-2"><p class="text-secondary">{{ obj.task_deadline|timeuntil }}
+                                    <td><p class="text-secondary">{{ obj.task_deadline|timeuntil }}
                                         Left</p></td>
                                 {% endif %}
-                                <td class="col-1"><a href="{% url 'edit_task' obj.id %}">
-                                    <button type="button" class="btn btn-warning">Edit</button>
+                                <td ><a href="{% url 'edit_task' obj.id %}">
+                                    <button type="button" class="btn btn-info">&#9998;</button>
                                 </a></td>
-                                <td class="col-1"><a href="{% url 'delete_task' obj.id %}">
-                                    <button type="button" class="btn btn-danger col-12">X</button>
+                                <td><a href="{% url 'delete_task' obj.id %}">
+                                    <button type="button" class="btn btn-danger">&#9940</button>
                                 </a></td>
                             </tr>
                         {% endif %}
                     {% endfor %}
                     </tbody>
                 </table>
-            </div>
-        </div>
 
         <nav aria-label="Page navigation example">
             <ul class="pagination justify-content-end">

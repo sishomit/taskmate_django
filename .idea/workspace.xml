@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist_app/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/todolist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,38 +24,39 @@
     <session id="353220959">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="35" />
           <entry key="Procfile" value="122" />
-          <entry key="css" value="1" />
+          <entry key="css" value="8" />
           <entry key="dummy" value="1" />
           <entry key="env" value="52" />
-          <entry key="html" value="8016" />
+          <entry key="html" value="9056" />
           <entry key="py" value="5944" />
           <entry key="py@taskmate" value="198" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="8" />
           <entry key="CommandLine" value="104" />
           <entry key="Env File" value="52" />
-          <entry key="HTML" value="8016" />
+          <entry key="HTML" value="9056" />
           <entry key="PLAIN_TEXT" value="95" />
           <entry key="Procfile" value="122" />
           <entry key="Python" value="5979" />
@@ -60,31 +65,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="env" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="gitigonre" value="1" />
-          <entry key="html" value="81" />
+          <entry key="html" value="83" />
           <entry key="js" value="13" />
           <entry key="keep" value="1" />
           <entry key="png" value="7" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="79" />
+          <entry key="py" value="80" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="Env File" value="2" />
           <entry key="Git file" value="1" />
-          <entry key="HTML" value="81" />
+          <entry key="HTML" value="83" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Procfile" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="79" />
+          <entry key="Python" value="80" />
         </counts>
       </usages-collector>
     </session>
@@ -92,37 +97,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/requirements.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="2373">
+              <caret line="115" selection-start-line="115" selection-end-line="115" />
               <folding>
                 <element signature="e#308#328#0" expanded="true" />
               </folding>
@@ -131,19 +109,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todolist_app/models.py">
+        <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+            <state relative-caret-position="2016">
+              <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
+        <entry file="file://$PROJECT_DIR$/todolist_app/templates/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="33" />
+            <state relative-caret-position="168">
+              <caret line="110" column="81" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -189,7 +170,6 @@
         <option value="$PROJECT_DIR$/static/js/flatpickr.js" />
         <option value="$PROJECT_DIR$/users_app/templates/change_password.html" />
         <option value="$PROJECT_DIR$/static/js/icon.js" />
-        <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/todolist_app/forms.py" />
         <option value="$PROJECT_DIR$/todolist_app/views.py" />
         <option value="$PROJECT_DIR$/users_app/templates/password_reset_form.html" />
@@ -207,18 +187,19 @@
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_form.html" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/todolist_app/templates/about.html" />
         <option value="$PROJECT_DIR$/todolist_app/templates/contactform.html" />
         <option value="$PROJECT_DIR$/todolist_app/templates/index.html" />
         <option value="$PROJECT_DIR$/.gitigonre" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/taskmate/settings.py" />
         <option value="$PROJECT_DIR$/todolist_app/models.py" />
+        <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/todolist_app/templates/todolist.html" />
+        <option value="$PROJECT_DIR$/todolist_app/templates/about.html" />
       </list>
     </option>
   </component>
@@ -240,13 +221,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +248,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,7 +361,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13164721" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13748379" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32859176" />
@@ -401,22 +387,23 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13359274" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13748379" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32859176" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5006485" side_tool="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.501297" side_tool="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="manage.py@taskmate" order="4" weight="0.32859176" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32859176" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.4993515" visible="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.3997155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" visible="true" weight="0.32859176" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
       <window_info anchor="right" id="Database" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
@@ -521,13 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="5449" selection-start-line="1" selection-start-column="5449" selection-end-line="1" selection-end-column="5449" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -639,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/templates/contactform.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -670,13 +643,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/staticfiles/.keep">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../taskmate/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,25 +679,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="2373">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#308#328#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4701">
+          <caret line="10435" selection-start-line="10435" selection-end-line="10435" />
+          <folding>
+            <element signature="e#40358#40613#2" expanded="true" />
+            <element signature="e#41288#41462#1" expanded="true" />
+            <element signature="e#41503#41758#1" expanded="true" />
+            <element signature="e#44412#44726#2" expanded="true" />
+            <element signature="e#45413#45587#1" expanded="true" />
+            <element signature="e#45628#45942#1" expanded="true" />
+            <element signature="e#80860#81068#2" expanded="true" />
+            <element signature="e#81327#81484#2" expanded="true" />
+            <element signature="e#81939#82095#2" expanded="true" />
+            <element signature="e#83832#84006#1" expanded="true" />
+            <element signature="e#101362#101619#2" expanded="true" />
+            <element signature="e#102636#102899#2" expanded="true" />
+            <element signature="e#140885#141081#2" expanded="true" />
+            <element signature="e#141137#141334#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="372">
           <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="31" selection-end-line="50" selection-end-column="33" />
+        <state relative-caret-position="2016">
+          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="110" column="81" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
