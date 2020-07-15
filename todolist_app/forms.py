@@ -15,4 +15,4 @@ class Taskform(forms.ModelForm):
 class Contactform(forms.ModelForm):
     class Meta:
         model = Contact
-        fields=['name','email','message']
+        fields = ['name', 'email', 'message']

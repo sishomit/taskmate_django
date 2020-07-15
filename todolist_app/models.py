@@ -4,7 +4,6 @@ from django.utils.timezone import localtime
 from django.utils import timezone
 
 
-
 # Create your models here.
 
 
@@ -33,4 +32,4 @@ class Contact(models.Model):
     time = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.name
+        return self.name + " -" + str(self.time)

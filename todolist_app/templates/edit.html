@@ -6,8 +6,8 @@
 {% endblock %}
 
 {% block content %}
-    <link rel="stylesheet" href="{% static 'css/flatpickr.min.css' %}">
-    <script src="{% static 'js/flatpickr.js' %}"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
 
 
     <script>
@@ -31,7 +31,8 @@
                     {% csrf_token %}
                     <input type="text" class="form-control col-lg-6 mr-2 col-6" name="task"
                            placeholder={{ task_obj.task }} value="{{ task_obj.task }}">
-                    <input type="text" class="datetimefield col-3 mr-1" name="task_deadline" placeholder="Change Deadline"
+                    <input type="text" class="datetimefield col-3 mr-1" name="task_deadline"
+                           placeholder="Change Deadline"
                            value="{{ task_obj.task_deadline }}">
                     <label class=" col-lg-1 mr-1">Completed?</label>
                     <input type="checkbox" class="form-control col-lg-1 col-2" name="done" checked>
@@ -42,7 +43,8 @@
                     {% csrf_token %}
                     <input type="text" class="form-control col-lg-6 mr-2 col-6" name="task"
                            placeholder={{ task_obj.task }} value="{{ task_obj.task }}">
-                    <input type="text" class="datetimefield col-3 mr-1" name="task_deadline" placeholder="Change Deadline"
+                    <input type="text" class="datetimefield col-3 mr-1" name="task_deadline"
+                           placeholder="Change Deadline"
                            value="{{ task_obj.task_dealine }}">
                     <label class=" col-lg-1">Completed?</label>
                     <input type="checkbox" class="form-control  col-lg-1 col-2" name="done">

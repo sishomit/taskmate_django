@@ -3,7 +3,7 @@ from django.utils import timezone
 from django.utils.timezone import now, localtime
 
 from todolist_app.models import Tasklist
-from todolist_app.forms import Taskform,Contactform
+from todolist_app.forms import Taskform, Contactform
 from django.contrib import messages
 from django.core.paginator import Paginator
 from django.contrib.auth.decorators import login_required
@@ -12,12 +12,11 @@ from datetime import datetime
 
 # Create your views here.
 
-#def current_time(self):
+# def current_time(self):
 
 
 @login_required
 def todolist(request):
-
     if request.method == "POST":
         form = Taskform(request.POST or None)
         if form.is_valid():
@@ -35,8 +34,7 @@ def todolist(request):
         all_task = paginator.get_page(page)
         current = localtime()
 
-
-        return render(request, 'todolist.html', {'all_task': all_task,'current':current})
+        return render(request, 'todolist.html', {'all_task': all_task, 'current': current})
 
 
 def contact(request):
@@ -50,7 +48,7 @@ def contact(request):
             messages.error(request, ("Can't send!! Check all fields!"))
         return redirect('contact')
     else:
-        return render(request,'contactform.html',{'contact_form': contact_form})
+        return render(request, 'contactform.html', {'contact_form': contact_form})
 
 
 def about(request):

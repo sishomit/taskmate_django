@@ -2,11 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/flatpickr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/flatpickr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.5.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.5.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist_app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/templates/contactform.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/contactform.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist_app/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/todolist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,108 +61,75 @@
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="5" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="35" />
           <entry key="Procfile" value="122" />
-          <entry key="css" value="8" />
+          <entry key="css" value="414" />
           <entry key="dummy" value="1" />
           <entry key="env" value="52" />
-          <entry key="html" value="9056" />
-          <entry key="py" value="5944" />
-          <entry key="py@taskmate" value="198" />
+          <entry key="html" value="9526" />
+          <entry key="py" value="5962" />
+          <entry key="py@taskmate" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="CommandLine" value="104" />
+          <entry key="CSS" value="414" />
+          <entry key="CommandLine" value="108" />
           <entry key="Env File" value="52" />
-          <entry key="HTML" value="9056" />
-          <entry key="PLAIN_TEXT" value="95" />
+          <entry key="HTML" value="9526" />
+          <entry key="PLAIN_TEXT" value="96" />
           <entry key="Procfile" value="122" />
-          <entry key="Python" value="5979" />
+          <entry key="Python" value="5997" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="2" />
-          <entry key="css" value="3" />
+          <entry key="css" value="4" />
           <entry key="env" value="4" />
           <entry key="gitignore" value="1" />
           <entry key="gitigonre" value="1" />
-          <entry key="html" value="83" />
+          <entry key="html" value="95" />
           <entry key="js" value="13" />
           <entry key="keep" value="1" />
           <entry key="png" value="7" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="80" />
+          <entry key="py" value="94" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="3" />
+          <entry key="CSS" value="4" />
           <entry key="Env File" value="2" />
           <entry key="Git file" value="1" />
-          <entry key="HTML" value="83" />
+          <entry key="HTML" value="95" />
           <entry key="Image" value="7" />
           <entry key="JavaScript" value="13" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Procfile" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="80" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2373">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
-              <folding>
-                <element signature="e#308#328#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/todolist_app/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="110" column="81" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
-              <folding>
-                <element signature="n#div#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -161,7 +153,6 @@
         <option value="$PROJECT_DIR$/static/js/jquery-3.5.1.slim.min.js" />
         <option value="$PROJECT_DIR$/static/js/popper.min.js" />
         <option value="$PROJECT_DIR$/static/js/bootstrap.min.js" />
-        <option value="$PROJECT_DIR$/todolist_app/urls.py" />
         <option value="$PROJECT_DIR$/taskmate/urls.py" />
         <option value="$PROJECT_DIR$/users_app/templates/loggedout.html" />
         <option value="$PROJECT_DIR$/users_app/templates/alert.html" />
@@ -170,36 +161,38 @@
         <option value="$PROJECT_DIR$/static/js/flatpickr.js" />
         <option value="$PROJECT_DIR$/users_app/templates/change_password.html" />
         <option value="$PROJECT_DIR$/static/js/icon.js" />
-        <option value="$PROJECT_DIR$/todolist_app/forms.py" />
-        <option value="$PROJECT_DIR$/todolist_app/views.py" />
         <option value="$PROJECT_DIR$/users_app/templates/password_reset_form.html" />
         <option value="$PROJECT_DIR$/users_app/templates/password_reset_done.html" />
         <option value="$PROJECT_DIR$/users_app/templates/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/users_app/templates/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/todolist_app/admin.py" />
         <option value="$PROJECT_DIR$/users_app/templates/login.html" />
         <option value="$PROJECT_DIR$/users_app/templates/register.html" />
-        <option value="$PROJECT_DIR$/todolist_app/templates/edit.html" />
-        <option value="$PROJECT_DIR$/users_app/forms.py" />
-        <option value="$PROJECT_DIR$/users_app/views.py" />
-        <option value="$PROJECT_DIR$/users_app/urls.py" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_email.html" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_confirm.html" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_form.html" />
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_complete.html" />
-        <option value="$PROJECT_DIR$/todolist_app/templates/contactform.html" />
-        <option value="$PROJECT_DIR$/todolist_app/templates/index.html" />
         <option value="$PROJECT_DIR$/.gitigonre" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/taskmate/settings.py" />
-        <option value="$PROJECT_DIR$/todolist_app/models.py" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/todolist_app/templates/todolist.html" />
         <option value="$PROJECT_DIR$/todolist_app/templates/about.html" />
+        <option value="$PROJECT_DIR$/todolist_app/templates/todolist.html" />
+        <option value="$PROJECT_DIR$/todolist_app/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/todolist_app/templates/edit.html" />
+        <option value="$PROJECT_DIR$/todolist_app/templates/contactform.html" />
+        <option value="$PROJECT_DIR$/todolist_app/admin.py" />
+        <option value="$PROJECT_DIR$/todolist_app/forms.py" />
+        <option value="$PROJECT_DIR$/todolist_app/models.py" />
+        <option value="$PROJECT_DIR$/todolist_app/urls.py" />
+        <option value="$PROJECT_DIR$/todolist_app/views.py" />
+        <option value="$PROJECT_DIR$/users_app/forms.py" />
+        <option value="$PROJECT_DIR$/users_app/urls.py" />
+        <option value="$PROJECT_DIR$/users_app/views.py" />
       </list>
     </option>
   </component>
@@ -221,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,24 +225,34 @@
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
               <item name="taskmate" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
-              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
-              <item name="todolist_app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="users_app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -358,20 +362,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13748379" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1770428" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.32859176" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.501297" side_tool="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="manage.py@taskmate" order="4" weight="0.32859176" />
+      <window_info anchor="bottom" id="manage.py@taskmate" order="4" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32859176" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32859176" />
       <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3997155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -397,7 +400,7 @@
       <window_info anchor="bottom" id="Python Console" order="5" weight="0.32859176" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32859176" />
       <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49870297" visible="true" weight="0.32859176" />
       <window_info anchor="bottom" id="Debug" order="10" weight="0.3997155" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
@@ -418,29 +421,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/todolist_app/admin.py</url>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/images/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/bootstrap.bundle.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/del.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/images/delete.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -458,28 +439,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users_app/templates/loggedout.html" />
-    <entry file="file://$PROJECT_DIR$/static/css/flatpickr.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="11843" selection-start-line="12" selection-start-column="11843" selection-end-line="12" selection-end-column="11843" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/flatpickr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="48480" selection-start-line="1" selection-start-column="48480" selection-end-line="1" selection-end-column="48480" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/flatpickr.min.css" />
+    <entry file="file://$PROJECT_DIR$/static/js/flatpickr.js" />
     <entry file="file://$PROJECT_DIR$/users_app/templates/alert.html" />
     <entry file="file://$PROJECT_DIR$/users_app/templates/logout.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -487,15 +449,6 @@
           <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users_app/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users_app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/users_app/templates/change_password.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -512,31 +465,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/templates/contact.html" />
-    <entry file="file://$PROJECT_DIR$/todolist_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users_app/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="25" column="156" selection-start-line="25" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/templates/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="47" column="92" lean-forward="true" selection-start-line="47" selection-start-column="92" selection-end-line="47" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -581,55 +513,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users_app/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users_app/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/users_app/templates/registration/password_reset_email.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users_app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/templates/contactform.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -677,9 +564,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css" />
     <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2373">
+        <state relative-caret-position="1884">
           <caret line="115" selection-start-line="115" selection-end-line="115" />
           <folding>
             <element signature="e#308#328#0" expanded="true" />
@@ -687,57 +575,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4701">
-          <caret line="10435" selection-start-line="10435" selection-end-line="10435" />
-          <folding>
-            <element signature="e#40358#40613#2" expanded="true" />
-            <element signature="e#41288#41462#1" expanded="true" />
-            <element signature="e#41503#41758#1" expanded="true" />
-            <element signature="e#44412#44726#2" expanded="true" />
-            <element signature="e#45413#45587#1" expanded="true" />
-            <element signature="e#45628#45942#1" expanded="true" />
-            <element signature="e#80860#81068#2" expanded="true" />
-            <element signature="e#81327#81484#2" expanded="true" />
-            <element signature="e#81939#82095#2" expanded="true" />
-            <element signature="e#83832#84006#1" expanded="true" />
-            <element signature="e#101362#101619#2" expanded="true" />
-            <element signature="e#102636#102899#2" expanded="true" />
-            <element signature="e#140885#141081#2" expanded="true" />
-            <element signature="e#141137#141334#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        <state relative-caret-position="246">
+          <caret line="245" column="22" selection-start-line="245" selection-start-column="22" selection-end-line="245" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="153" column="12" selection-start-line="153" selection-start-column="12" selection-end-line="153" selection-end-column="12" />
+        <state relative-caret-position="462">
+          <caret line="47" column="85" selection-start-line="47" selection-start-column="85" selection-end-line="47" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todolist_app/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="110" column="81" selection-start-line="110" selection-start-column="81" selection-end-line="110" selection-end-column="81" />
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/templates/todolist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/templates/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/templates/contactform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="92" selection-start-line="10" selection-start-column="92" selection-end-line="10" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todolist_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-888">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>

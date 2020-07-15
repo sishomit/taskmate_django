@@ -7,12 +7,16 @@
 
 {% block content %}
     <div class="container">
-    <h2 class="text-primary col-lg-6 align-self-center">Contact US</h2>
-    <h7 class="text-secondary mt-1 mb-1">For any kind of suggestion,help regarding your account.Send a message our support team will serve you.</h7>
-<form method="post" class="col-6">
-      {{ contact_form|crispy }}
-      {% csrf_token %}
-      <p><button type="submit" class="btn btn-outline-primary">Send Meassage</button> </p>
-    </form>
+        <h2 class="text-primary col-lg-6 align-self-center">Contact US</h2>
+        <h7 class="text-secondary mt-1 mb-1">For any kind of suggestion,help regarding your account.Send a message our
+            support team will serve you.
+        </h7>
+        <form method="post" class="col-6">
+            {{ contact_form|crispy }}
+            {% csrf_token %}
+            <p>
+                <button type="submit" class="btn btn-outline-primary">Send Meassage</button>
+            </p>
+        </form>
     </div>
 {% endblock %}
