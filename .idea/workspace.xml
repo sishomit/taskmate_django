@@ -2,36 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de534cb-2360-40a1-a81d-51b745dc4ee0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/flatpickr.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/flatpickr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.5.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery-3.5.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/templates/contactform.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/contactform.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/templates/todolist.html" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/templates/todolist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todolist_app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskmate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/taskmate/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,9 +42,9 @@
           <entry key="Procfile" value="122" />
           <entry key="css" value="414" />
           <entry key="dummy" value="1" />
-          <entry key="env" value="52" />
+          <entry key="env" value="64" />
           <entry key="html" value="9526" />
-          <entry key="py" value="5962" />
+          <entry key="py" value="5979" />
           <entry key="py@taskmate" value="203" />
         </counts>
       </usages-collector>
@@ -81,18 +52,18 @@
         <counts>
           <entry key="CSS" value="414" />
           <entry key="CommandLine" value="108" />
-          <entry key="Env File" value="52" />
+          <entry key="Env File" value="64" />
           <entry key="HTML" value="9526" />
           <entry key="PLAIN_TEXT" value="96" />
           <entry key="Procfile" value="122" />
-          <entry key="Python" value="5997" />
+          <entry key="Python" value="6014" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="2" />
           <entry key="css" value="4" />
-          <entry key="env" value="4" />
+          <entry key="env" value="5" />
           <entry key="gitignore" value="1" />
           <entry key="gitigonre" value="1" />
           <entry key="html" value="95" />
@@ -100,14 +71,14 @@
           <entry key="keep" value="1" />
           <entry key="png" value="7" />
           <entry key="pstat" value="1" />
-          <entry key="py" value="94" />
+          <entry key="py" value="95" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="4" />
-          <entry key="Env File" value="2" />
+          <entry key="Env File" value="3" />
           <entry key="Git file" value="1" />
           <entry key="HTML" value="95" />
           <entry key="Image" value="7" />
@@ -115,13 +86,35 @@
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Procfile" value="2" />
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="94" />
+          <entry key="Python" value="95" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="134" column="42" lean-forward="true" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+              <folding>
+                <element signature="e#308#328#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -173,10 +166,8 @@
         <option value="$PROJECT_DIR$/users_app/templates/registration/password_reset_complete.html" />
         <option value="$PROJECT_DIR$/.gitigonre" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/taskmate/settings.py" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/todolist_app/templates/about.html" />
         <option value="$PROJECT_DIR$/todolist_app/templates/todolist.html" />
@@ -193,6 +184,8 @@
         <option value="$PROJECT_DIR$/users_app/forms.py" />
         <option value="$PROJECT_DIR$/users_app/urls.py" />
         <option value="$PROJECT_DIR$/users_app/views.py" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/taskmate/settings.py" />
       </list>
     </option>
   </component>
@@ -238,6 +231,11 @@
               <item name="taskmate" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
+              <item name="taskmate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="taskmate" type="b2602c69:ProjectViewProjectNode" />
@@ -362,6 +360,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="870" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.1770428" />
@@ -543,13 +542,6 @@
         <state relative-caret-position="-2" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -565,16 +557,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.min.css" />
-    <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1884">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
-          <folding>
-            <element signature="e#308#328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -706,6 +688,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taskmate/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="134" column="42" lean-forward="true" selection-start-line="134" selection-start-column="42" selection-end-line="134" selection-end-column="42" />
+          <folding>
+            <element signature="e#308#328#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

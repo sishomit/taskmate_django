@@ -130,7 +130,7 @@ LOGIN_URL = 'login'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'taskmate.cybric@gmail.com'
-EMAIL_HOST_PASSWORD = '456123@Tm'
-DEFAULT_FROM_EMAIL = 'taskmate.cybric@gmail.com'
+EMAIL_HOST_USER = 'youremail@gmail.com'
+EMAIL_HOST_PASSWORD = 'Password'
+DEFAULT_FROM_EMAIL = 'youremail@gmail.com'
 django_heroku.settings(locals())
